@@ -1,0 +1,124 @@
+Script started on Thu 11 Feb 2016 01:51:47 PM EST
+[?1034h[148:~/Documents/CIS452/Labs/Lab5]$ kate mtserver.cls[Kcd Lab4/ls[Kcd Labs/ls[Kcd CIS452[4P..CIS457/[K[K[K[K[K[K[K[K[K[K./sample1 
+Size of allocated segment: 4096
+value a: 139746827223040	 value b: 139746827227136
+ shmId: 938934317
+ip  ipcm rm     ^C
+[148:~/Documents/CIS452/Labs/Lab5]$ ipsc[K[Kcs
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 547454976  marcelis   600        393216     2          dest         
+0x00000000 547553281  marcelis   600        393216     2          dest         
+0x00000000 547651586  marcelis   600        524288     2          dest         
+0x00000000 547684355  marcelis   600        393216     2          dest         
+0x00000000 935493636  marcelis   600        524288     2          dest         
+0x00000000 547979269  marcelis   600        393216     2          dest         
+0x00000000 550371334  marcelis   600        393216     2          dest         
+0x00000000 548306951  marcelis   600        393216     2          dest         
+0x00000000 548339720  marcelis   600        393216     2          dest         
+0x00000000 548569097  marcelis   600        524288     2          dest         
+0x00000000 553189386  marcelis   600        393216     2          dest         
+0x00000000 548601867  marcelis   600        393216     2          dest         
+0x00000000 554008588  marcelis   600        393216     2          dest         
+0x00000000 577667085  marcelis   600        524288     2          dest         
+0x00000000 554336270  marcelis   600        393216     2          dest         
+0x00000000 554500111  marcelis   600        524288     2          dest         
+0x00000000 884080656  grahamha   600        393216     2          dest         
+0x00000000 884178961  grahamha   600        393216     2          dest         
+0x00000000 555188242  marcelis   600        524288     2          dest         
+0x00000000 884211731  grahamha   600        393216     2          dest         
+0x00000000 884310036  grahamha   600        524288     2          dest         
+0x00000000 884637717  grahamha   600        393216     2          dest         
+0x00000000 884801558  grahamha   600        393216     2          dest         
+0x00000000 935526423  miedemha   600        393216     2          dest         
+0x00000000 935428120  grahamha   600        524288     2          dest         
+0x00000000 884965401  grahamha   600        524288     2          dest         
+0x00000000 935624730  miedemha   600        393216     2          dest         
+0x00000000 885194779  grahamha   600        524288     2          dest         
+0x00000000 935723036  miedemha   600        393216     2          dest         
+0x00000000 935854109  miedemha   600        393216     2          dest         
+0x00000000 886046750  grahamha   600        524288     2          dest         
+0x00000000 936083487  miedemha   600        524288     2          dest         
+0x00000000 936640544  miedemha   600        393216     2          dest         
+0x00000000 936378401  miedemha   600        393216     2          dest         
+0x00000000 936345634  miedemha   600        524288     2          dest         
+0x00000000 936411171  miedemha   600        393216     2          dest         
+0x00000000 875364388  browdavi   600        524288     1          dest         
+0x00000000 936607781  miedemha   600        524288     2          dest         
+0x00000000 937033766  miedemha   600        1048576    2          dest         
+0x00000000 936738855  miedemha   600        393216     2          dest         
+0x00000000 936902696  miedemha   600        393216     2          dest         
+0x00000000 936804393  miedemha   600        524288     2          dest         
+0x00000000 937689130  miedemha   600        4096       0                       
+0x00000000 938901547  miedemha   600        4096       0                       
+0x00000000 889389100  miedemha   600        524288     1          dest         
+0x00000000 938934317  miedemha   600        4096       0                       
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems     
+
+[148:~/Documents/CIS452/Labs/Lab5]$ ipcrm -m 938934317
+[148:~/Documents/CIS452/Labs/Lab5]$ i-c[K[Kpcs
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 547454976  marcelis   600        393216     2          dest         
+0x00000000 547553281  marcelis   600        393216     2          dest         
+0x00000000 547651586  marcelis   600        524288     2          dest         
+0x00000000 547684355  marcelis   600        393216     2          dest         
+0x00000000 935493636  marcelis   600        524288     2          dest         
+0x00000000 547979269  marcelis   600        393216     2          dest         
+0x00000000 550371334  marcelis   600        393216     2          dest         
+0x00000000 548306951  marcelis   600        393216     2          dest         
+0x00000000 548339720  marcelis   600        393216     2          dest         
+0x00000000 548569097  marcelis   600        524288     2          dest         
+0x00000000 553189386  marcelis   600        393216     2          dest         
+0x00000000 548601867  marcelis   600        393216     2          dest         
+0x00000000 554008588  marcelis   600        393216     2          dest         
+0x00000000 577667085  marcelis   600        524288     2          dest         
+0x00000000 554336270  marcelis   600        393216     2          dest         
+0x00000000 554500111  marcelis   600        524288     2          dest         
+0x00000000 884080656  grahamha   600        393216     2          dest         
+0x00000000 884178961  grahamha   600        393216     2          dest         
+0x00000000 555188242  marcelis   600        524288     2          dest         
+0x00000000 884211731  grahamha   600        393216     2          dest         
+0x00000000 884310036  grahamha   600        524288     2          dest         
+0x00000000 884637717  grahamha   600        393216     2          dest         
+0x00000000 884801558  grahamha   600        393216     2          dest         
+0x00000000 935526423  miedemha   600        393216     2          dest         
+0x00000000 935428120  grahamha   600        524288     2          dest         
+0x00000000 884965401  grahamha   600        524288     2          dest         
+0x00000000 935624730  miedemha   600        393216     2          dest         
+0x00000000 885194779  grahamha   600        524288     2          dest         
+0x00000000 935723036  miedemha   600        393216     2          dest         
+0x00000000 935854109  miedemha   600        393216     2          dest         
+0x00000000 886046750  grahamha   600        524288     2          dest         
+0x00000000 936083487  miedemha   600        524288     2          dest         
+0x00000000 936640544  miedemha   600        393216     2          dest         
+0x00000000 936378401  miedemha   600        393216     2          dest         
+0x00000000 936345634  miedemha   600        524288     2          dest         
+0x00000000 936411171  miedemha   600        393216     2          dest         
+0x00000000 875364388  browdavi   600        524288     1          dest         
+0x00000000 936607781  miedemha   600        524288     2          dest         
+0x00000000 937033766  miedemha   600        1048576    2          dest         
+0x00000000 936738855  miedemha   600        393216     2          dest         
+0x00000000 936902696  miedemha   600        393216     2          dest         
+0x00000000 936804393  miedemha   600        524288     2          dest         
+0x00000000 937689130  miedemha   600        4096       0                       
+0x00000000 938901547  miedemha   600        4096       0                       
+0x00000000 889389100  miedemha   600        524288     1          dest         
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems     
+
+[148:~/Documents/CIS452/Labs/Lab5]$ ipcsrm -m 938934317^[OH^?[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Thu 11 Feb 2016 01:53:32 PM EST

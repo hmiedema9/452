@@ -1,0 +1,110 @@
+Script started on Wed 13 Apr 2016 04:47:48 PM EDT
+[?1034h[arch10:~/Documents/CIS452/Labs/Lab12]$ gcc -o -[Klc[Ks lsc.[K.c[K[K[K.c -Wall
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ./ls
+sample1.c      
+sample2.c      
+ls.c           
+ls             
+script4        
+script2        
+script3        
+test           
+..             
+.              
+typescript     
+sample2        
+sample1        
+[arch10:~/Documents/CIS452/Labs/Lab12]$ /\[K[K./ls ~./[K[K.D[K[K/doc[K[K[KDocuments/
+CIS452         
+hw2vector.C    
+CIS343         
+hw2list        
+profile_hw2vector_1000000
+stats talk.odt 
+profile_hw2list_1000000
+..             
+.              
+gmon.out       
+hw2list.C      
+hw2vector      
+CIS457         
+CIS353         
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ./ls ..
+Lab2           
+Lab10          
+Lab11          
+Lab6           
+Lab1           
+Lab7           
+..             
+.              
+Lab5           
+Lab12          
+Lab3           
+Lab4           
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ./ks[K[Kls -l
+-rw------- 1 miedemha users 555 Apr 07 13:17	sample1.c           
+-rw------- 1 miedemha users 454 Apr 07 13:31	sample2.c           
+-rw------- 1 miedemha users 5889 Apr 13 16:47	ls.c                
+-rwx--x--x 1 miedemha users 13423 Apr 13 16:47	ls                  
+-rw------- 1 miedemha users 0 Apr 13 16:47	script4             
+-rw------- 1 miedemha users 1209 Apr 07 13:22	script2             
+-rw------- 1 miedemha users 1025 Apr 07 13:32	script3             
+drwx--x--x 2 miedemha users 4096 Apr 07 13:16	test                
+drwx--x--x 12 miedemha users 4096 Apr 07 12:54	..                  
+drwx--x--x 3 miedemha users 4096 Apr 13 16:47	.                   
+-rw------- 1 miedemha users 459 Apr 07 13:20	typescript          
+-rwx--x--x 1 miedemha users 8780 Apr 07 13:31	sample2             
+-rwx--x--x 1 miedemha users 8772 Apr 07 13:20	sample1             
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ./ ls[K[K[Kls -i
+167575811 sample1.c      
+167575809 sample2.c      
+167576106 ls.c           
+167575639 ls             
+167575622 script4        
+167575805 script2        
+167575810 script3        
+167575666 test           
+95101757 ..             
+167576072 .              
+167575593 typescript     
+167575555 sample2        
+167575579 sample1        
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ./ls -l ~/Documents/
+drwx--x--x 5 miedemha users 4096 Mar 16 21:45	CIS452              
+-rw------- 1 miedemha users 356 Feb 02 16:19	hw2vector.C         
+drwx--x--x 2 miedemha users 4096 Nov 23 21:48	CIS343              
+-rwx--x--x 1 miedemha users 49709 Feb 04 14:58	hw2list             
+-rw------- 1 miedemha users 88497 Feb 02 16:28	profile_hw2vector_1000000
+-rw------- 1 miedemha users 42385 Apr 06 10:10	stats talk.odt      
+-rw------- 1 miedemha users 37572 Feb 02 16:23	profile_hw2list_1000000
+drwx------ 55 miedemha users 4096 Apr 13 16:36	..                  
+drwx------ 6 miedemha users 4096 Apr 13 16:42	.                   
+-rw------- 1 miedemha users 6318 Feb 02 16:27	gmon.out            
+-rw------- 1 miedemha users 314 Feb 02 16:19	hw2list.C           
+-rwx--x--x 1 miedemha users 69924 Feb 04 14:59	hw2vector           
+drwx--x--x 6 miedemha users 4096 Apr 11 17:52	CIS457              
+drwx--x--x 3 miedemha users 4096 Dec 09 14:47	CIS353              
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ./s[Kls -li[K[Ki ~/Documents/
+48900892 CIS452         
+176508181 hw2vector.C    
+176508177 CIS343         
+176508184 hw2list        
+176508174 profile_hw2vector_1000000
+176488621 stats talk.odt 
+176508185 profile_hw2list_1000000
+172884311 ..             
+176508159 .              
+176508186 gmon.out       
+176508189 hw2list.C      
+176508188 hw2vector      
+74777564 CIS457         
+176508160 CIS353         
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ./ls -l not-a-directory
+PATH WAS INVALID
+Can only handle arguments: -i or -l (not both)
+Format: ./ls [OPTIONAL: argument] [OPTIONAL: path]
+[arch10:~/Documents/CIS452/Labs/Lab12]$ exit
+exit
+
+Script done on Wed 13 Apr 2016 04:48:59 PM EDT

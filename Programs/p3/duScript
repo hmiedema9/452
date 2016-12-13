@@ -1,0 +1,141 @@
+Script started on Thu 21 Apr 2016 06:51:19 AM EDT
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du.py 
+28254	./.idea
+38174	.
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du [K.y[Kpy ..
+28254	../duProj/.idea
+38174	../duProj
+7190	../scraper-master/scraper
+29780	../scraper-master/.idea
+43553	../scraper-master
+238019	../GoogleScraper-master/GoogleScraper
+48896	../GoogleScraper-master/tests/data/various
+101889	../GoogleScraper-master/tests/data/json_tests
+777196	../GoogleScraper-master/tests/data/page_number_selector
+101889	../GoogleScraper-master/tests/data/csv_tests
+1098110	../GoogleScraper-master/tests/data/uncompressed_serp_pages
+194090	../GoogleScraper-master/tests/data/tmp
+124257	../GoogleScraper-master/tests/data/no_results
+518284	../GoogleScraper-master/tests/data/no_results_literal
+551761	../GoogleScraper-master/tests/data/uncompressed_no_results_serp_pages
+3520468	../GoogleScraper-master/tests/data
+3558984	../GoogleScraper-master/tests
+22125	../GoogleScraper-master/Examples
+15137	../GoogleScraper-master/.idea
+3867300	../GoogleScraper-master
+26875	../untitled1/.idea
+49085	../untitled1
+14050	../untitled/.idea
+18146	../untitled
+4020354	..
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du.py 0h[K[K-h
+27.6KiB	  ./.idea
+37.3KiB	  .
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du.py -h ..
+27.6KiB	  ../duProj/.idea
+37.3KiB	  ../duProj
+7.0KiB	  ../scraper-master/scraper
+29.1KiB	  ../scraper-master/.idea
+42.5KiB	  ../scraper-master
+232.4KiB	  ../GoogleScraper-master/GoogleScraper
+47.8KiB	  ../GoogleScraper-master/tests/data/various
+99.5KiB	  ../GoogleScraper-master/tests/data/json_tests
+759.0KiB	  ../GoogleScraper-master/tests/data/page_number_selector
+99.5KiB	  ../GoogleScraper-master/tests/data/csv_tests
+1.0MiB	  ../GoogleScraper-master/tests/data/uncompressed_serp_pages
+189.5KiB	  ../GoogleScraper-master/tests/data/tmp
+121.3KiB	  ../GoogleScraper-master/tests/data/no_results
+506.1KiB	  ../GoogleScraper-master/tests/data/no_results_literal
+538.8KiB	  ../GoogleScraper-master/tests/data/uncompressed_no_results_serp_pages
+3.4MiB	  ../GoogleScraper-master/tests/data
+3.4MiB	  ../GoogleScraper-master/tests
+21.6KiB	  ../GoogleScraper-master/Examples
+14.8KiB	  ../GoogleScraper-master/.idea
+3.7MiB	  ../GoogleScraper-master
+26.2KiB	  ../untitled1/.idea
+47.9KiB	  ../untitled1
+13.7KiB	  ../untitled/.idea
+17.7KiB	  ../untitled
+3.8MiB	  ..
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du.py -c 
+6	./.idea
+13	.
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ du[K[K./du.py -c ..
+6	../duProj/.idea
+13	../duProj
+2	../scraper-master/scraper
+6	../scraper-master/.idea
+14	../scraper-master
+22	../GoogleScraper-master/GoogleScraper
+1	../GoogleScraper-master/tests/data/various
+14	../GoogleScraper-master/tests/data/json_tests
+7	../GoogleScraper-master/tests/data/page_number_selector
+14	../GoogleScraper-master/tests/data/csv_tests
+7	../GoogleScraper-master/tests/data/uncompressed_serp_pages
+4	../GoogleScraper-master/tests/data/tmp
+7	../GoogleScraper-master/tests/data/no_results
+6	../GoogleScraper-master/tests/data/no_results_literal
+4	../GoogleScraper-master/tests/data/uncompressed_no_results_serp_pages
+64	../GoogleScraper-master/tests/data
+67	../GoogleScraper-master/tests
+12	../GoogleScraper-master/Examples
+6	../GoogleScraper-master/.idea
+115	../GoogleScraper-master
+6	../untitled1/.idea
+7	../untitled1
+6	../untitled/.idea
+6	../untitled
+155	..
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du.py -t
+csv   5
+xml   4
+py   1
+iml   1
+name   1
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du.py -t ..
+py   41
+gz   35
+html   25
+xml   20
+csv   8
+name   5
+iml   5
+txt   5
+md   2
+gitignore   2
+json   1
+in   1
+rst   1
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du.py -s
+42270	.
+28254	./.idea
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ ./du.py -s ..
+4024450	..
+3867300	../GoogleScraper-master
+3558984	../GoogleScraper-master/tests
+3520468	../GoogleScraper-master/tests/data
+1098110	../GoogleScraper-master/tests/data/uncompressed_serp_pages
+777196	../GoogleScraper-master/tests/data/page_number_selector
+551761	../GoogleScraper-master/tests/data/uncompressed_no_results_serp_pages
+518284	../GoogleScraper-master/tests/data/no_results_literal
+238019	../GoogleScraper-master/GoogleScraper
+194090	../GoogleScraper-master/tests/data/tmp
+124257	../GoogleScraper-master/tests/data/no_results
+101889	../GoogleScraper-master/tests/data/json_tests
+101889	../GoogleScraper-master/tests/data/csv_tests
+49085	../untitled1
+48896	../GoogleScraper-master/tests/data/various
+43553	../scraper-master
+42270	../duProj
+29780	../scraper-master/.idea
+28254	../duProj/.idea
+26875	../untitled1/.idea
+22125	../GoogleScraper-master/Examples
+18146	../untitled
+15137	../GoogleScraper-master/.idea
+14050	../untitled/.idea
+7190	../scraper-master/scraper
+]0;hmiedema@hmiedema-ENVY-m6: ~/PycharmProjects/duProjhmiedema@hmiedema-ENVY-m6:~/PycharmProjects/duProj$ exit
+exit
+
+Script done on Thu 21 Apr 2016 06:52:15 AM EDT

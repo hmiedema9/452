@@ -1,0 +1,42 @@
+Script started on Wed 13 Apr 2016 04:50:30 PM EDT
+[?1034h[arch10:~/Documents/CIS452/Labs/Lab12]$ ls
+ls    sample1	 sample2    script2  script4  test
+ls.c  sample1.c  sample2.c  script3  script5  typescript
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ls !/[K[K~/Documents/
+CIS343	CIS457	  hw2list.C    profile_hw2list_1000000
+CIS353	gmon.out  hw2vector    profile_hw2vector_1000000
+CIS452	hw2list   hw2vector.C  stats talk.odt
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ls ..
+Lab1  Lab10  Lab11  Lab12  Lab2  Lab3  Lab4  Lab5  Lab6  Lab7
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ls -l
+total 80
+-rwx--x--x 1 miedemha users 13423 Apr 13 16:47 ls
+-rw------- 1 miedemha users  5889 Apr 13 16:47 ls.c
+-rwx--x--x 1 miedemha users  8772 Apr  7 13:20 sample1
+-rw------- 1 miedemha users   555 Apr  7 13:17 sample1.c
+-rwx--x--x 1 miedemha users  8780 Apr  7 13:31 sample2
+-rw------- 1 miedemha users   454 Apr  7 13:31 sample2.c
+-rw------- 1 miedemha users  1209 Apr  7 13:22 script2
+-rw------- 1 miedemha users  1025 Apr  7 13:32 script3
+-rw------- 1 miedemha users  4163 Apr 13 16:48 script4
+-rw------- 1 miedemha users     0 Apr 13 16:50 script5
+drwx--x--x 2 miedemha users  4096 Apr  7 13:16 test
+-rw------- 1 miedemha users   459 Apr  7 13:20 typescript
+[arch10:~/Documents/CIS452/Labs/Lab12]$ ls -l ~/Documents/
+total 328
+drwx--x--x 2 miedemha users  4096 Nov 23 21:48 CIS343
+drwx--x--x 3 miedemha users  4096 Dec  9 14:47 CIS353
+drwx--x--x 5 miedemha users  4096 Mar 16 21:45 CIS452
+drwx--x--x 6 miedemha users  4096 Apr 11 17:52 CIS457
+-rw------- 1 miedemha users  6318 Feb  2  2015 gmon.out
+-rwx--x--x 1 miedemha users 49709 Feb  4  2015 hw2list
+-rw------- 1 miedemha users   314 Feb  2  2015 hw2list.C
+-rwx--x--x 1 miedemha users 69924 Feb  4  2015 hw2vector
+-rw------- 1 miedemha users   356 Feb  2  2015 hw2vector.C
+-rw------- 1 miedemha users 37572 Feb  2  2015 profile_hw2list_1000000
+-rw------- 1 miedemha users 88497 Feb  2  2015 profile_hw2vector_1000000
+-rw------- 1 miedemha users 42385 Apr  6 10:10 stats talk.odt
+[arch10:~/Documents/CIS452/Labs/Lab12]$ exit
+exit
+
+Script done on Wed 13 Apr 2016 04:51:08 PM EDT

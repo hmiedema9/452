@@ -1,0 +1,61 @@
+Script started on Thu 14 Jan 2016 02:05:28 PM EST
+[?1034h[148:~/Documents/CIS452]$ gcc -Wall -g sample.c
+[148:~/Documents/CIS452]$ ./ smap[K[K[K[K[Ks[Ka,.[K[K.out
+Hello, world.
+You  are the 268435456.000000 person to write this program!
+[148:~/Documents/CIS452]$ gdb a.out
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-80.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/miedemha/Documents/CIS452/a.out...done.
+(gdb) break main
+Breakpoint 1 at 0x400588: file sample.c, line 5.
+(gdb) run
+Starting program: /home/miedemha/Documents/CIS452/a.out 
+
+Breakpoint 1, main () at sample.c:5
+5	    double num = 0.0;
+Missing separate debuginfos, use: debuginfo-install glibc-2.17-106.el7_2.1.x86_64
+(gdb) p num
+$1 = 0
+(gdb) s
+6	    printf ("Hello, world.\n");
+(gdb) s
+Hello, world.
+7	    num = pow (2, 28);
+(gdb) s
+8	    printf ("You  are the %f person to write this program!\n", num);
+(gdb) pn[K num
+$2 = 268435456
+(gdb) '[Kquit
+A debugging session is active.
+
+	Inferior 1 [process 11426] will be killed.
+
+Quit anyway? (y or n) y
+[148:~/Documents/CIS452]$ script -h
+
+Usage:
+ script [options] [file]
+
+Options:
+ -a, --append            append the output
+ -c, --command <command> run command rather than interactive shell
+ -e, --return            return exit code of the child process
+ -f, --flush             run flush after each write
+     --force             use output file even when it is a link
+ -q, --quiet             be quiet
+ -t, --timing[=<file>]   output timing data to stderr (or to FILE)
+ -V, --version           output version information and exit
+ -h, --help              display this help and exit
+
+[148:~/Documents/CIS452]$ exit
+exit
+
+Script done on Thu 14 Jan 2016 02:06:58 PM EST

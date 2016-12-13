@@ -1,0 +1,29 @@
+Script started on Thu 07 Apr 2016 01:22:30 PM EDT
+[?1034h[148:~/Documents/CIS452/Labs/Lab12]$ stat sample1.c
+  File: ‘sample1.c’
+  Size: 555       	Blocks: 8          IO Block: 1048576 regular file
+Device: 26h/38d	Inode: 167575811   Links: 1
+Access: (0600/-rw-------)  Uid: ( 7330/miedemha)   Gid: (  500/   users)
+Access: 2016-04-07 13:17:45.279253158 -0400
+Modify: 2016-04-07 13:17:45.277253152 -0400
+Change: 2016-04-07 13:17:45.278253155 -0400
+ Birth: -
+[148:~/Documents/CIS452/Labs/Lab12]$ .,[K/sample1c[K sample.1[K[K1.c
+value is: 33152
+The given parameter is not a directory
+[148:~/Documents/CIS452/Labs/Lab12]$ stat test
+  File: ‘test’
+  Size: 4096      	Blocks: 8          IO Block: 1048576 directory
+Device: 26h/38d	Inode: 167575666   Links: 2
+Access: (0711/drwx--x--x)  Uid: ( 7330/miedemha)   Gid: (  500/   users)
+Access: 2016-04-07 13:16:13.372000523 -0400
+Modify: 2016-04-07 13:16:13.372000523 -0400
+Change: 2016-04-07 13:16:13.372000523 -0400
+ Birth: -
+[148:~/Documents/CIS452/Labs/Lab12]$ ./sample1 test
+value is: 16841
+The given parameter is a directory
+[148:~/Documents/CIS452/Labs/Lab12]$ exit
+exit
+
+Script done on Thu 07 Apr 2016 01:22:56 PM EDT

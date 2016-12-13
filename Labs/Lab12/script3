@@ -1,0 +1,26 @@
+Script started on Thu 07 Apr 2016 01:32:26 PM EDT
+[?1034h[148:~/Documents/CIS452/Labs/Lab12]$ ./sample2
+sample1.c            555 Bytes
+sample2.c            454 Bytes
+script2              1209 Bytes
+script3              0 Bytes
+test                 4096 Bytes
+..                   4096 Bytes
+.                    4096 Bytes
+typescript           459 Bytes
+sample2              8780 Bytes
+sample1              8772 Bytes
+[148:~/Documents/CIS452/Labs/Lab12]$ ls -l
+total 44
+-rwx--x--x 1 miedemha users 8772 Apr  7 13:20 sample1
+-rw------- 1 miedemha users  555 Apr  7 13:17 sample1.c
+-rwx--x--x 1 miedemha users 8780 Apr  7 13:31 sample2
+-rw------- 1 miedemha users  454 Apr  7 13:31 sample2.c
+-rw------- 1 miedemha users 1209 Apr  7 13:22 script2
+-rw------- 1 miedemha users    0 Apr  7 13:32 script3
+drwx--x--x 2 miedemha users 4096 Apr  7 13:16 test
+-rw------- 1 miedemha users  459 Apr  7 13:20 typescript
+[148:~/Documents/CIS452/Labs/Lab12]$ exit
+exit
+
+Script done on Thu 07 Apr 2016 01:32:38 PM EDT

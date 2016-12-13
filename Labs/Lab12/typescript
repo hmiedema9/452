@@ -1,0 +1,12 @@
+Script started on Thu 07 Apr 2016 01:20:21 PM EDT
+[?1034h[148:~/Documents/CIS452/Labs/Lab12]$ gcc -o sample1 sample1.c
+[148:~/Documents/CIS452/Labs/Lab12]$ ./sample [K1 sample1.c
+value is: 33152
+The given parameter is not a directory
+[148:~/Documents/CIS452/Labs/Lab12]$ ./sample1 test
+value is: 16841
+The given parameter is a directory
+[148:~/Documents/CIS452/Labs/Lab12]$ eixt[K[K[Kxit
+exit
+
+Script done on Thu 07 Apr 2016 01:20:33 PM EDT
